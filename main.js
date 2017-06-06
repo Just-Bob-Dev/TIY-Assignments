@@ -12,7 +12,7 @@ console.log(fibonacci[1]);
     }
     fibonacci.push(c);
     console.log(c);
-    }
+  }
 
 var sum = 0;
 

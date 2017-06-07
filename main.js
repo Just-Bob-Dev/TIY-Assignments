@@ -38,19 +38,6 @@ console.log(threeFive(1000));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // console.log("The sum of all the even numbers: " + sum);
 // var threeFiveSum = 0;
 // for(i = 0; i < 1000; i++){
@@ -60,14 +47,24 @@ console.log(threeFive(1000));
 // }
 // console.log("The sum of all numbers divisible by 3 and 5: " +threeFiveSum);
 //
-// for(i = 1; i<=100; i++){
-//   if(i % 3 === 0 && i % 5 === 0){
-//     console.log(" fizzBuzz ");
-//   }else if(i % 3 === 0){
-//     console.log(" fizz ")
-//   }else if(i % 5 === 0) {
-//     console.log(" buzz ");
-//   }else {
-//     console.log(" " + i + " ");
-//   }
-// }
+function fizzBuzz(num){
+  for(i = 1; i <= num; i++){
+    if(i % 3 === 0 && i % 5 === 0)
+    {
+      console.log(" fizzBuzz ");
+    }
+    else if(i % 3 === 0)
+    {
+      console.log(" fizz ")
+    }
+    else if(i % 5 === 0)
+    {
+      console.log(" buzz ");
+    }
+    else
+    {
+      console.log(" " + i + " ");
+    }
+  }
+}
+console.log(fizzBuzz(100));
